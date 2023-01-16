@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+}
+.list_item {
+  padding-left: 60px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363853;
+}
+.active{
+    color: #ff6838;
+    
+}
+.list_cart {
+  padding-left: 40px;
+}
+.btn_primary {
+  margin-left: 55px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff7a50;
+  padding: 14px 27px;
+  border: none;
+  box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+  border-radius: 5px;
+}
+.efood{
+    align-items: flex-end;
+}

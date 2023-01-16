@@ -1,0 +1,156 @@
+.food {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #363853;
+  padding-top: 100px;
+}
+span {
+  color: #ff6838;
+}
+
+.person {
+  width: 100%;
+}
+.text_info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #363853;
+}
+.explore{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+background: #FF7A50;
+box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+border-radius: 5px;
+padding: 12px 21px;
+border: none;
+
+}
+a{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+color: #363853;
+padding-left: 30px;
+}
+.our{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.burger{
+  background: #FF7A50;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 14px 50px;
+}
+.pizza{
+  background: #f9f3f3;
+border-radius: 8px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #363853;
+padding: 6px 50px;
+margin-bottom: 100px;
+}
+.sandvich{
+  background: #f9f3f3;
+border-radius: 8px;
+padding: 14px 50px;
+}
+.asian{
+  background: #f9f3f3;
+border-radius: 8px;
+padding: 14px 50px;
+}
+.sand{
+  background: #f9f3f3;
+  border-radius: 8px;
+  padding: 7px 50px;
+}
+.a{
+  width: 144px;
+height: 144px;
+left: 166px;
+top: 1192px;
+margin: auto;
+}
+.b{
+  width: 120px;
+height: 19.77px;
+left: 182px;
+top: 1314.16px;
+margin: auto
+}
+.v{
+  text-align: center;
+  padding-top: 20px;
+}
+.add{
+  background: #FF7A50;
+border-radius: 2px;
+border: none;
+padding: 7px 13px;
+margin-left: 85px;
+}
+.card{
+  border: none;
+  margin-top: 100px;
+  background: #FFFFFF;
+border-radius: 12px;
+}
+.stay{
+  padding-top: 150px;
+  
+}
+.fast{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+}
+.add1{
+  padding-left: 150px;
+}
+.shop{
+  background: #FF7A50;
+/* Clor shadow */
+
+box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+border-radius: 30px 30px 1px 30px;
+padding: 14px 44px;
+border: none;
+margin-top: 100px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
