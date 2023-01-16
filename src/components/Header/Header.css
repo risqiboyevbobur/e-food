@@ -149,8 +149,83 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
+color: #FFFFFF;
+}
+
+.one{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.blaze{
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #363853;
+}
+.time{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #363853;
+opacity: 0.9;
+padding-top: 10px;
+padding-right: 30px;
+}
+.live{
+  display: flex;
+}
+.next{
+  background: #FF7A50;
+box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+border-radius: 20px 20px 0px 20px;
+padding: 11px 33px;
+border: none;
+margin-bottom: 65px;
+
+}
+.mobile{
+  padding-top: 120px;
+}
+.play{
+  padding-left: 55px;
+}
+.client{
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  
+}
+.easy{
+padding-top: 100px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+letter-spacing: 0.5px;
+color: #363853;
+}
+.and{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FF7A50;
+}
+.and1{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
 /* identical to box height */
 
 
-color: #FFFFFF;
+color: #AAAAAA;
 }

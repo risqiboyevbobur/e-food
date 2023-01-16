@@ -12,7 +12,11 @@ const burger1 = require("../img/Burger (1).png");
 const item = require("../img/item_01-480x480 1 (1).png");
 const item1 = require("../img/item_01-480x480 1 (2).png");
 const man = require("../img/food delivery 4.png");
-const time = require("../img/Timer icon.png");
+const chese = require("../img/Rectangle 53.png");
+const cart = require("../img/Group 178.png");
+const apple = require("../img/Store=App Store, Style=Black.png");
+const play = require("../img/Store=Google Play, Style=Black.png");
+const jole = require("../img/Rectangle 8.png");
 export default function Header() {
   return (
     <>
@@ -155,6 +159,91 @@ export default function Header() {
       </div>
 
       <h1 className="one">Top Food <span>Restaurant </span></h1>
+
+
+      <div className="container">
+        <div className="row">
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+          <div className="col-4">
+              <img src={chese} alt="" />
+              <h3 className="blaze">Blaze Pizza</h3>
+          <div className="live">
+          <p className="time">11.00 AM - 10.00 PM</p>
+          <button className="next">next  </button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-5">
+            <h1 className="mobile">Download  Our <span>Mobile App</span></h1>
+            <br />
+            <p className="nature">It's all at your fingertips -- the restaurants you love. Find <br /> the right food to suit your mood, and make the first bite <br /> last. Go ahead, download app and get 50% discount</p>
+            <img className="apple" src={apple} alt="" />
+            <img className="play" src={play} alt="" />
+          </div>
+          <div className="col-5">
+     <img src={cart} alt="" className="cart" />
+          </div>
+        </div>
+      </div>
+      <h1 className="client">What Our Client Are <span>Saying</span> </h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-5">
+            <img src={jole} alt="" />
+          </div>
+          <div className="col-5">
+    <p className="easy"> EFood has the most intriguing food order system in the country. UI in both their app and web Is very simple and easy to use, enhancing the UX. Their delivery men are also quite professional and knows the neighborhood well. Till now I never had to guide them to my address for delivery; </p>
+    <br /><br /><br />
+    <h3 className="and">Anglina Jole</h3>
+    <br />
+    <h3 className="and1">Food lover</h3>
+    
+          </div>
+        </div>
+      </div>
     </>
   );
 }
