@@ -153,6 +153,8 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      <h1 className="one">Top Food <span>Restaurant </span></h1>
     </>
   );
 }
