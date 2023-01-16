@@ -189,14 +189,14 @@ export default function Header() {
           </div>
           <div className="col-4">
               <img src={chese} alt="" />
-              <h3 className="blaze">Blaze Pizza</h3>
+              <h3 className="blaze" >Blaze Pizza</h3>
           <div className="live">
           <p className="time">11.00 AM - 10.00 PM</p>
           <button className="next">next  </button>
           </div>
           </div>
           <div className="col-4">
-              <img src={chese} alt="" />
+              <img src={chese} alt=""  />
               <h3 className="blaze">Blaze Pizza</h3>
           <div className="live">
           <p className="time">11.00 AM - 10.00 PM</p>
